@@ -1,0 +1,21 @@
+<h1>Stupid Coaching</h1>
+<br>
+
+<div class="question">
+<p>
+  <%= @user_question %>
+  <br> <em>–You</em>
+</p>
+</div>
+
+<div class="answer">
+<p>
+  <strong><%= @answer %></strong>
+  <br> <em>–Your coach</em>
+</p>
+</div>
+
+<br>
+<div class="form">
+<%= link_to "Ask a new question", ask_path %>
+</div>
